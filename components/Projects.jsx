@@ -116,7 +116,7 @@ export default function Projects() {
                         />
                       </svg>
                     </span>
-                    Código
+                    Code
                   </a>
                 )}
                 {p.demoUrl && (
