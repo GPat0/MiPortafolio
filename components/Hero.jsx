@@ -55,8 +55,8 @@ export default function Hero() {
 
         <p className="hero-copy">
           {lang === "es"
-            ? "Transformo ideas en experiencias digitales excepcionales. Especializado en crear productos modernos con código limpio y diseño intuitivo."
-            : "Transforming ideas into exceptional digital experiences. Focused on modern products with clean code and intuitive design."}
+            ? "Frontend Developer Jr enfocado en crear aplicaciones web escalables, con atención al detalle, buena experiencia de usuario y buenas prácticas de desarrollo."
+            : "Frontend Developer focused on building scalable web applications, with attention to detail, great user experience, and best development practices.."}
         </p>
 
         <div className="hero-actions">
