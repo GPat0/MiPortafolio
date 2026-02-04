@@ -43,7 +43,7 @@ export default function Projects() {
       size: "small",
       accent: "#fb923c",
       codeUrl: "https://github.com/GPat0/Swift_Hack",
-      demoUrl: "",
+      demoUrl: "https://www.youtube.com/watch?v=eW4fIPdvLtg",
     },
   ];
 
