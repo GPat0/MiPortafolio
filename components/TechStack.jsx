@@ -8,19 +8,19 @@ const techs = [
   { name: "React", slug: "react", color: "61DAFB", text: "#66d9ff" },
   { name: "Node.js", slug: "nodedotjs", color: "339933", text: "#56c26a" },
   { name: "Next.js", slug: "nextdotjs", color: "FFFFFF", text: "#f59e0b" },
-  { name: "Azure", slug: "", color: "0078D4", text: "#4aa3ff" },
+  {name: "Azure",slug: "microsoftazure",color: "0078D4",text: "#4aa3ff",iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",},
   { name: "Swift", slug: "swift", color: "F05138", text: "#ff7a4d" },
   { name: "HTML", slug: "html5", color: "E34F26", text: "#ff7a4d" },
-  { name: "CSS", slug: "css", color: "1572B6", text: "#4aa3ff" },
+  {name: "CSS",slug: "css3",color: "1572B6",text: "#4aa3ff",iconUrl: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",},
 ];
 
 export default function TechStack() {
   return (
     <section className="tech-section">
       <div className="tech-header">
-        <h2 className="tech-title">Stack Tecnológico</h2>
+        <h2 className="tech-title">Technology Stack</h2>
         <p className="tech-subtitle">
-          Tecnologías y herramientas he utilizado para crear experiencias digitales excepcionales
+          Technologies and tools I've used to create exceptional digital experiences
         </p>
       </div>
       <div className="tech-grid">
@@ -31,17 +31,19 @@ export default function TechStack() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: i * 0.03 }}
             whileHover={{
-              y: -6,
-              boxShadow: "0 0 0 1px rgba(90,140,255,0.35), 0 18px 40px rgba(0,0,0,0.5)",
+              y: -20,
+              scale: 1.1,
+              boxShadow: "0 0 0 1px rgba(90,140,255,0.45), 0 30px 70px rgba(0,0,0,0.6)",
             }}
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
             className="tech-card"
             style={{ "--tech-glow": t.text }}
           >
             <div className="tech-icon-wrap">
-              {t.slug ? (
+              {t.slug || t.iconUrl ? (
                 <img
                   className="tech-icon"
-                  src={`https://cdn.simpleicons.org/${t.slug}/${t.color}`}
+                  src={t.iconUrl ?? `https://cdn.simpleicons.org/${t.slug}/${t.color}`}
                   alt={`${t.name} logo`}
                   loading="lazy"
                 />

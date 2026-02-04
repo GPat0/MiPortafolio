@@ -17,7 +17,7 @@ function MainContent() {
       {/* 1. SECCIÓN HERO: Fondo con ligero tinte gris oscuro */}
       <section className="relative bg-[#0a0a0a] border-b border-white/5">
         <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-10 py-8 backdrop-blur-md">
-          <div className="text-2xl font-black italic">GAEL<span className="text-orange-500">.</span></div>
+          <div className="text-2xl font-black italic">PORTFOLIO<span className="text-orange-500"></span></div>
           <button onClick={toggleLang} className="glass-card px-6 py-2 rounded-full text-[10px] font-bold">
             {lang === 'es' ? "EN" : "ES"}
           </button>
@@ -37,7 +37,7 @@ function MainContent() {
       </section>
 
       {/* 4. SECCIÓN PROYECTOS: Volvemos al Negro para el Grid final */}
-      <section className="bg-[#050505] py-24">
+      <section className="projects-wrap py-24">
         <Projects />
       </section>
 
