@@ -48,7 +48,6 @@ function MainContent() {
   );
 }
 
-// ESTA ES LA EXPORTACIÓN DEFAULT QUE NEXT.JS NECESITA
 export default function Page() {
   return (
     <LanguageProvider>

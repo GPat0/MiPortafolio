@@ -20,7 +20,7 @@ export default function Projects() {
       demoUrl: "",
     },
     {
-      title: "Omnia — Asistente Virtual",
+      title: "Omnia — Virtual Financial Assistant",
       tags: ["React", "Express", "Gemini", "ElevenLabs"],
       desc: {
         es: "Asistente financiero con avatar conversacional que ayuda a presupuestar, categorizar gastos y dar recomendaciones en tiempo real.",

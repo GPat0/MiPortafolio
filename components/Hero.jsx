@@ -60,14 +60,19 @@ export default function Hero() {
         </p>
 
         <div className="hero-actions">
-          <button className="hero-btn hero-btn-primary">
+          <a
+            className="hero-btn hero-btn-primary"
+            href="https://github.com/GPat0"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span className="hero-btn-icon" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M12 2C6.477 2 2 6.484 2 12.014c0 4.424 2.865 8.184 6.839 9.508.5.094.682-.217.682-.483 0-.238-.009-.868-.014-1.703-2.782.605-3.369-1.344-3.369-1.344-.455-1.159-1.11-1.467-1.11-1.467-.907-.621.069-.609.069-.609 1.003.071 1.53 1.032 1.53 1.032.892 1.53 2.341 1.089 2.91.833.091-.647.35-1.089.636-1.34-2.22-.253-4.555-1.113-4.555-4.955 0-1.094.39-1.99 1.029-2.691-.103-.253-.446-1.272.098-2.65 0 0 .84-.269 2.75 1.027A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.116 2.504.338 1.909-1.296 2.748-1.027 2.748-1.027.546 1.378.203 2.397.1 2.65.64.701 1.028 1.597 1.028 2.691 0 3.852-2.338 4.699-4.566 4.947.359.309.678.92.678 1.854 0 1.337-.012 2.415-.012 2.743 0 .268.18.58.688.481A10.02 10.02 0 0 0 22 12.014C22 6.484 17.523 2 12 2Z" />
               </svg>
             </span>
             GitHub
-          </button>
+          </a>
           <a
             className="hero-btn hero-btn-outline"
             href="https://www.linkedin.com/in/gael-gaytan-bb4a86249/"
